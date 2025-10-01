@@ -1,0 +1,23 @@
+# Virtual env
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# VS Code settings (optional to ignore)
+.vscode/
+
+# Streamlit secrets (keep credentials out of Git)
+.streamlit/secrets.toml
+
+# Large local data (keep Excel out of Git)
+*.xlsx
+*.xls
+
+# OS cruft
+.DS_Store
+Thumbs.db
